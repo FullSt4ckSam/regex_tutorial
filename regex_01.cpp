@@ -16,7 +16,7 @@ int main()
 		cout<<"Give me a number!"<<endl;
 		cin>>input;
 		//Exit when the user inputs q
-		if(input=="q")
+		if(islower(input)==islower("q"))
 			break;
 		if(regex_match(input,integer))
 			cout<<"integer"<<endl;
